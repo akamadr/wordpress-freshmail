@@ -1,0 +1,299 @@
+@media (min-width: 576px) {
+    .modal__success .modal-dialog {
+        max-width: 1200px;
+        margin: 1.75rem auto;
+    }
+}
+
+.modal .close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 10;
+    font-size: 3.5rem;
+    opacity: 1;
+    font-weight: 200;
+    color: #5dae4d;
+}
+
+
+.modal .modal-body {
+    padding: 0rem;
+}
+
+.newsletter-notyfication {
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+}
+
+.modal-content {
+    overflow: hidden;
+}
+
+.modal-content .newsletter-notyfication {
+    bottom: -30px;
+}
+
+@media (max-width: 991.98px) {
+    .newsletter-notyfication {
+        bottom: -40px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.newsletter_succes {
+    color: #41ad49;
+}
+
+.freshmail_submit {
+    position: relative;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 2;
+    transform: translateY(-50%);
+    
+}
+
+.spinner .spinner-border {
+    color: #f1f1f1;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-width: .2rem;
+}
+
+.newsletter_error {
+    color: red;
+}
+
+.newsletter__info {
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+.newsletter__policy {
+    font-size: 0.9rem;
+    padding-top: 10px;
+    text-transform: uppercase;
+} 
+
+.spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+}
+
+
+.loading  .spinner {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.modal-body__success {
+    margin: 20px;
+    border: 1px solid #5dae4d;
+    padding: 50px;
+}
+
+
+.modal-privacy {
+    text-transform: uppercase;
+}
+
+.modal-logo {
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.modal--header.modal--header__success {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.modal--img {
+    max-height: 430px;
+}
+
+.modal-contentsuccess {
+    padding: 60px 0px 60px 110px;
+}
+
+
+
+.modal--desc.modal-privacy {
+    font-size: 1rem;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.modal--image__success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal--icon__div {
+    padding: 10px;
+    background-color: #FFF;
+    position: absolute;
+}
+
+.modal--icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #5dae4d;
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.modal--icon_law {
+
+}
+
+.modal--icon__div--law {
+    left: -60px;
+    height: 100px;
+    top: 30%;
+    width: 100px;
+}
+
+.modal--icon__div--wallet {
+    left: 0px;
+    height: 70px;
+    top: 60%;
+    width: 70px;
+}
+
+.modal--icon_wallet {
+    height: 70px;
+    width: 70px;
+}
+
+.modal--icon__div--log {
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.modal--icon_log {
+    bottom: -20px;
+    left: -20px;
+    height: 50px;
+    width: 50px;
+}
+
+.modal--icon_search {
+    width: 120px;
+    height: 120px;
+}
+
+.modal--icon__div--search {
+    bottom: -60px;
+    left: 45%;
+    width: 120px;
+    height: 120px;
+}
+
+.modal--icon__div--per {
+    position: absolute;
+    left: 60%;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.modal--icon_per {
+    width: 70px;
+    height: 70px;
+}
+
+.modal--icon__div--bas {
+    right: -70px;
+    bottom: -90px;
+    height: 160px;
+    width: 160px;
+}
+
+.modal--icon_bas {
+    height: 160px;
+    width: 160px;
+}
+
+.modal--icon__div--med {
+    right: -50px;
+    top: 40%;
+    width: 70px;
+    height: 70px;
+}
+
+.modal--icon_med {
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width: 991.98px) {
+    .newsletter-notyfication {
+        left: 0px;
+    }
+
+    .modal--icon__div--per, .modal--icon__div--bas {
+        display: none;
+    }
+
+    .modal--image__success {
+        position: absolute!important;
+        top: 0;
+        right: 0%;
+        opacity: 0.2;
+        justify-content: flex-end;
+    }
+
+    .modal--header.modal--header__success {
+        font-size: 20px;
+    }
+
+    .modal-body__success .modal--desc {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .zx-2 {
+        z-index: 2;
+    }
+
+    .modal-contentsuccess {
+        padding: 60px 40px 60px 80px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .modal--icon__div--search, .modal--icon__div--wallet {
+        display: none;
+    }
+
+    .modal-contentsuccess {
+        padding: 60px 20px 60px 40px;
+    }
+
+    .modal--image__success {
+        top: 30px;
+    }
+
+
+}
